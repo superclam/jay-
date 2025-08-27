@@ -1,0 +1,14 @@
+{
+  "name": "leaderboard-backend",
+  "version": "1.0.0",
+  "description": "排行榜 Node.js 后端 for Vercel 部署",
+  "main": "push-leaderboard.js",
+  "scripts": {
+    "start": "node push-leaderboard.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pusher": "^5.2.0"
+  }
+}
