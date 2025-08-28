@@ -1,0 +1,22 @@
+{
+  "name": "jay-chou-game-backend",
+  "version": "1.0.0",
+  "description": "周杰伦随机歌曲挑战游戏后端",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pusher": "^5.1.0-beta",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

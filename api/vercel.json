@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "jay-chou-game-backend",
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/index.js"
+    }
+  ],
+  "env": {
+    "PORT": "3000"
+  }
+}
